@@ -30,7 +30,7 @@ const Signin = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center h-screen">
       <form
         onSubmit={handleSignIn}
         className="bg-white p-6 rounded shadow w-full max-w-sm"
@@ -47,6 +47,9 @@ const Signin = () => {
           Sign In
         </button>
       </form>
+      <div>
+        <p><strong>admin:</strong>peter@gmail.com</p>
+      </div>
     </div>
   );
 };
